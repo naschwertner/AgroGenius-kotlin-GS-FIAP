@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GSAgroGenius" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#281754</item>
+        <item name="colorPrimaryVariant">#281754</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#281754</item>
+        <item name="colorSecondaryVariant">#281754</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.GSAgroGenius.Purple" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/verde</item>
+        <item name="colorPrimaryVariant">@color/verde</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/verde</item>
+        <item name="colorSecondaryVariant">@color/verde</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.GSAgroGenius.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.GSAgroGenius.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="Theme.GSAgroGenius.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home"
+            android:icon="@drawable/icon_home"/>
+        <item
+            android:id="@+id/nav_diagnostico"
+            android:title="@string/diagn_stico_de_cultivo"
+            android:icon="@drawable/icon_camera"/>
+        <item
+            android:id="@+id/nav_previsao"
+            android:title="@string/previs_o_de_safra"
+            android:icon="@drawable/icon_agriculture"/>
+        <item
+            android:id="@+id/nav_irrigacao"
+            android:title="@string/irriga_o_programada"
+            android:icon="@drawable/water"/>
+    </group>
+</menu>

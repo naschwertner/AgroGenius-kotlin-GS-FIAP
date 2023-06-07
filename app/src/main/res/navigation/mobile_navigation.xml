@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.gs_agrogenius.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_previsao"
+            app:destination="@id/nav_previsao" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_previsao2"
+            app:destination="@id/nav_previsao" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_diagnostico"
+            app:destination="@id/nav_diagnostico" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_irrigacao"
+            app:destination="@id/nav_irrigacao" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_diagnostico"
+        android:name="com.example.gs_agrogenius.ui.diagnostico.DiagnosticoFragment"
+        android:label="@string/diagn_stico_de_cultivo"
+        tools:layout="@layout/fragment_diagnostico" >
+        <action
+            android:id="@+id/action_nav_diagnostico_to_diagnosticoResultadoFragment"
+            app:destination="@id/diagnosticoResultadoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_previsao"
+        android:name="com.example.gs_agrogenius.ui.previsao.PrevisaoFragment"
+        android:label="@string/previs_o_de_safra"
+        tools:layout="@layout/fragment_previsao" >
+        <action
+            android:id="@+id/action_nav_previsao_to_previsaoResultado1Fragment"
+            app:destination="@id/previsaoResultado1Fragment" />
+        <action
+            android:id="@+id/action_nav_previsao_to_previsaoResultado2Fragment"
+            app:destination="@id/previsaoResultado2Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/diagnosticoResultadoFragment"
+        android:name="com.example.gs_agrogenius.diagnosticoResultadoFragment"
+        android:label="@string/diag_resul"
+        tools:layout="@layout/fragment_diagnostico_resultado" />
+    <fragment
+        android:id="@+id/previsaoResultado1Fragment"
+        android:name="com.example.gs_agrogenius.PrevisaoResultado1Fragment"
+        android:label="@string/resul_for"
+        tools:layout="@layout/fragment_previsao_resultado1" />
+    <fragment
+        android:id="@+id/previsaoResultado2Fragment"
+        android:name="com.example.gs_agrogenius.PrevisaoResultado2Fragment"
+        android:label="@string/resul_for2"
+        tools:layout="@layout/fragment_previsao_resultado2" />
+
+    <fragment
+        android:id="@+id/nav_irrigacao"
+        android:name="com.example.gs_agrogenius.ui.irrigacao.IrrigacaoFragment"
+        android:label="@string/irrig_contr"
+        tools:layout="@layout/fragment_irrigacao" >
+        <action
+            android:id="@+id/action_nav_irrigacao_to_resultadoIrrigacaoFragment"
+            app:destination="@id/resultadoIrrigacaoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadoIrrigacaoFragment"
+        android:name="com.example.gs_agrogenius.ResultadoIrrigacaoFragment"
+        android:label="@string/irrig_resul"
+        tools:layout="@layout/fragment_resultado_irrigacao" />
+
+</navigation>
