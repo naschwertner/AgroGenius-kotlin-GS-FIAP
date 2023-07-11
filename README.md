@@ -1,15 +1,8 @@
-A partir desse contexto elabore uma solução utilizando inovação e tecnologia a partir de
-IAs generativas e a produção de alimentos no Brasil, para apresentar essa solução
-desenvolva um protótipo funcional utilizando o Android!
-Considere os seguintes pontos:
+## Projeto/protótipo em Koltin simulando sistema de acompanhamento e grenciamento de plantações utilizando IA generativa para analise de colheita.
 
->Para as interações com IA, inputs e outputs os dados podem ser mockados(adicionados
-diretamente ao código).
+>Para as interações com IA, inputs foi utilizado dados mockados.
 
->Lembrando que o app entregue é um protótipo, caso necessário pode ser feito algum
-documento ou apresentação explicando as funcionalidades contidas no projeto.
-
->Utilize os conhecimentos de Android adquiridos nesse semestre:
+>Conceitos utilizados no desenvolvimento do projeto:
 * Kotlin
 * Layouts
 * Ciclo de vida
@@ -23,3 +16,4 @@ documento ou apresentação explicando as funcionalidades contidas no projeto.
 * Fragments
 * NavigationFragments
 * Menus
+
